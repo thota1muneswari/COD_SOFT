@@ -1,0 +1,18 @@
+.navbar{
+    background-color:grey;
+    color:white;
+    margin:0px;
+    padding:20px 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lists a{
+    text-decoration: none;
+    gap:20px;
+    color:white;
+}
+ .body{
+    background-image: url(images/bgimg2.jpg);
+
+ }
