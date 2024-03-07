@@ -1,18 +1,111 @@
 .navbar{
-    background-color:grey;
+    background-color:black;
     color:white;
     margin:0px;
     padding:20px 30px ;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 .lists a{
     text-decoration: none;
-    gap:20px;
+    gap: 2rem;
     color:white;
+    transition: 0.3s;
+    padding:1rem 1rem;
+}
+.lists a:hover{
+    color:blue;
+    transition: 0.5s;
 }
  .body{
-    background-image: url(images/bgimg2.jpg);
+    background-image: url(https://img.freepik.com/free-photo/composition-small-airplanes-bus-passport-map_23-2148169874.jpg?w=740&t=st=1709742659~exp=1709743259~hmac=7cd71e0494c1ab012e0713e6555d6b3aeac2de1d0b709e786e1005d856e860d5);
 
  }
+ .register a{
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+
+ }
+ .register a:hover{
+    color:blue;
+    
+ }
+ .container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    min-height:calc(100vh - 100px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5rem;
+ }
+ .content_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .heading1{
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 3.5rem;
+   color:white;
+   margin-bottom: 1rem;
+
+ }
+ .heading2{
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 3.5rem;
+   color:white;
+   margin-bottom: 1rem;
+
+ }
+ .para {
+   font-size: 1.5rem;
+   color:white;
+   margin-bottom: 2rem;
+    
+ }
+ form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+form input{
+   width:100%;
+   max-width: 300px;
+   padding:1rem;
+   font-size: 0.8rem;
+   outline:none;
+   border:none;
+   box-shadow: 5px 5px 20px indianred;
+
+}
+form button{
+   width:fit-content;
+   padding:1rem;
+   font-size: 0.8rem;
+   white-space:nowrap;
+   background-color: var(--primary-color);
+   color:var(--white);
+   outline:none;
+   border: none;
+   box-shadow: 5px 5px 20px black;
+   transition: 0.3s;
+   cursor: pointer;
+}
+footer{
+   background-color: black;
+   color:white;
+   margin:auto;
+   padding:1rem;
+   text-align: center;
+}
+.container h1{
+   color:brown;
+   text-align: center;
+
+}
